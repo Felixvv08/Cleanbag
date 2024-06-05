@@ -2,6 +2,11 @@ var is_mobile = !!navigator.userAgent.match(/iphone|android|blackberry/ig) || fa
 console.log(is_mobile);
 
 
+if (is_mobile === true) {
+  alert(`You're on mobile.`)
+};
+
+
 let timeS = 0;
 timeLoop();
 
