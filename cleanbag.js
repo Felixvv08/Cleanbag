@@ -3,9 +3,10 @@ console.log(is_mobile);
 
 
 if (is_mobile === true) {
-  alert(`You're on mobile.`) 
+  alert(`You're on mobile.`); 
 } else {
-  alert(`You're not on mobile.`)
+  alert(`You're not on mobile.`);
+  window.location.href = "phone.html";
 }
 
 
