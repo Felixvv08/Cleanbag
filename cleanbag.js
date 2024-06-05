@@ -1,3 +1,7 @@
+let isMobile = window.navigator.userAgentData.mobile;
+alert(isMobile)
+
+
 let timeS = 0;
 timeLoop();
 
