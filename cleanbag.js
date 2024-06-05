@@ -3,8 +3,10 @@ console.log(is_mobile);
 
 
 if (is_mobile === true) {
-  alert(`You're on mobile.`)
-};
+  alert(`You're on mobile.`) 
+} else {
+  alert(`You're not on mobile.`)
+}
 
 
 let timeS = 0;
