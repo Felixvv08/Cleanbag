@@ -1,5 +1,5 @@
-let isMobile = window.navigator.userAgentData.mobile;
-alert(isMobile)
+var is_mobile = !!navigator.userAgent.match(/iphone|android|blackberry/ig) || false;
+console.log(is_mobile);
 
 
 let timeS = 0;
