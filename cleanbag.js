@@ -4,9 +4,9 @@ console.log(is_mobile);
 
 if (is_mobile === true) {
   alert(`You're on mobile.`); 
-  window.location.href = "phone.html";
+  window.location.href = "menu.html";
 } else {
-  alert(`You're not on mobile.`);
+  //alert(`You're not on mobile.`);
 }
 
 
