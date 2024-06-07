@@ -47,7 +47,7 @@ function time () {
   document.getElementById("minutes").innerHTML = `${timeS.minutes}`;
 
   co2 = co2 + 416;
-  document.getElementById("co2").innerHTML = `${co2 / 1000}`;
+  document.getElementById("co2").innerHTML = `${co2 / 10000}`;
 
   timeLoop();
 

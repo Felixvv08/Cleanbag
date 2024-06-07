@@ -206,4 +206,8 @@ body {
 
 }.body-timer-text, .body-co2-text {
   text-align: center;
+
+}.footer-text-disclaimer {
+  color: gray;
+  font-size: 40%;
 }
