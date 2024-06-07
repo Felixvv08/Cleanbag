@@ -71,17 +71,18 @@ body {
   background-color: gray;
 
 }.head-image {
-  width: 15%;
+  width: 80px;
+  height: 80px;
 
   
 }.head-image:hover {
   cursor: pointer;
 
 }.head-image-menu {
-  width: 7%;
-  height: 55%;
-  margin-top: 20px;
-  padding: 0px;
+  width: 50px;
+  height: 50px;
+  margin-top: 17px;
+  
 
 }.body {
   text-align: center;
@@ -210,4 +211,15 @@ body {
 }.footer-text-disclaimer {
   color: gray;
   font-size: 40%;
+
+}.head-button-image {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+
+}.head-image-menu:hover {
+  cursor: pointer;
+
+}.head-button-image:hover {
+  cursor: pointer;
 }
