@@ -222,4 +222,21 @@ body {
 
 }.head-button-image:hover {
   cursor: pointer;
+
+}.body-images {
+  margin-top: 6%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}.body-image-1 {
+  width: 70%;
+  border: solid 2px white;
+
+}.body-text {
+  display: flex;
+  gap: 18%;
+  justify-content: center;
+  margin-bottom: 15%;
 }
+
