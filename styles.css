@@ -45,7 +45,7 @@ body {
   font-family: Roboto, Arial;
   font-size: 150%;
   font-weight: bold;
-  color: black;
+  color: white;
   margin: 0px;
   padding: 0px;
   
@@ -108,7 +108,7 @@ body {
   right: 0px;
   left: 0px;
 
-}.body-video {
+}.body-video, body-video-2 {
   z-index: 1001;
   position: absolute;
   right: 0px;
@@ -145,6 +145,7 @@ body {
 }.footer-title-small {
   border-bottom: solid 2px black;
   font-size: 120%;
+  color: black;
 
 }.body-steps1 {
   width: 25%;
@@ -228,6 +229,7 @@ body {
   display: flex;
   width: 100%;
   justify-content: center;
+  margin-bottom: 8%;
 
 }.body-image-1 {
   width: 70%;
@@ -238,5 +240,19 @@ body {
   gap: 18%;
   justify-content: center;
   margin-bottom: 15%;
-}
 
+}.body-video-2 {
+  bottom: 8%;
+
+}.body-problem-title {
+  margin-top: 5%;
+
+}.body-timer-title {
+  text-align: center;
+
+}.body-co2-image {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
