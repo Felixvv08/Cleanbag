@@ -243,6 +243,7 @@ body {
 
 }.body-video-2 {
   bottom: 8%;
+  border: solid white;
 
 }.body-problem-title {
   margin-top: 5%;
