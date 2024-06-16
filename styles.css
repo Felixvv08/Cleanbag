@@ -71,17 +71,19 @@ body {
   background-color: gray;
 
 }.head-image {
-  width: 65px;
-  height: 65px;
+  margin-top: 2px;
+  width: 50px;
+  height: 50px;
 
   
 }.head-image:hover {
   cursor: pointer;
 
 }.head-image-menu {
+  margin-left: 5px;
   width: 35px;
   height: 35px;
-  margin-top: 18px;
+  margin-top: 10px;
   
 
 }.body {
@@ -256,4 +258,42 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+
+}.body-problem-picture {
+  width: 100%;
+  border: solid 2px white;
+
+}.body-problem-div {
+  margin-top: 5%;
+  display: flex;
+  width: 100%;
+
+}.body-problem-div-picture {
+  width: 30%;
+  margin-left: 3%;
+
+}.body-problem-div-text {
+  margin-left: 5%;
+  
+}.body-help-title {
+  text-align: center;
+  vertical-align: top;
+
+}.body-help-image {
+  width: 70%;
+
+}.body-help-div-image {
+  width: 28%;
+  border: solid 2px white;
+
+}.body-help-div {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+
+}.body-help-text {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
