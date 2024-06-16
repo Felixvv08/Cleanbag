@@ -296,4 +296,33 @@ body {
   text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;
+
+}.dropdown {
+  position: relative;
+  display: inline-block;
+
+}.dropdown-content {
+  display: none;
+  position: relative;
+  width: 100px;
+  z-index: 0;
+  color: white;
+
+}.dropdown-content a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  border-right: solid 2px white;
+  border-left: solid 2px white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+
+}.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: rgb(27, 155, 206);
+
+}.dropdown-content a:hover {
+  background-color: gray;
+
 }

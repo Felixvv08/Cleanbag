@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .dropdown {
+        position: relative;
+        display: inline-block;
+     
+      }.dropdown-content {
+        display: none;
+        position: absolute;
+        width: 100px;
+        z-index: 1;
+        color: white;
+      
+      }.dropdown-content a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        text-align: center;
+      
+      }.dropdown:hover .dropdown-content {
+        display: block;
+        background-color: rgb(27, 155, 206);
+      
+      }.dropdown-content a:hover {
+        background-color: gray;
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="dropdown">
+      <img src="images/menuclean.png" class="dropimage">
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a>Store</a>
+        <a>About</a>
+      </div>
+    </div>
+  </body>
+</html>
