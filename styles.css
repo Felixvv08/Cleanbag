@@ -185,6 +185,7 @@ body {
   
 }.body-reviews-title {
   text-align: center;
+  margin-top: 5%;
 
 }.body-review-1 {
   width: 80%;
@@ -354,4 +355,54 @@ body {
   width: 100%;
   text-align: center;
 
+}.body-team-div {
+  text-align: center;
+  margin-top: 25%;
+
+}.body-team-image {
+  width: 80%;
+  border: solid white;
+
+}.body-product-video {
+  margin-top: 2%;
+  border: solid white;
+
+}.body-shop-div {
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+  margin-top: 5%;
+
+}.body-shop-text, .body-shop-text2 {
+  display: inline-block;
+
+}.body-shop-text {
+  opacity: 40%;
+
+}.body-shop-button {
+  display: inline-block;
+  margin-left: 3%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}.body-shop-tax {
+  font-size: 80%;
+  opacity: 60%;
+  margin-bottom: 5%;
+
+}.body-shop-input {
+  margin-top: 2%;
+  padding: 10px;
+  border-radius: 5%;
+  border: solid white;
+
+}.body-shop-cart {
+  display: block;
+  margin-top: 5%;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 0px;
+
+}.body-shop-timer {
+  text-align: center;
 }
