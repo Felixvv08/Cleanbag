@@ -405,4 +405,16 @@ body {
 
 }.body-shop-timer {
   text-align: center;
+
+}.body-shop-title {
+  display: block;
+
+}.body-shop-image {
+  width: 60%;
+  margin-left: 25%;
+  height: 80%;
+  border: solid white;
+
+}.body-menu-text {
+  font-size: 120%;
 }
